@@ -5,20 +5,25 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
+import { type SpeechLine, useMouthOpen } from "./lipsync";
 
 type MomProps = {
   readonly style?: React.CSSProperties;
   /** Góc tay phải (độ). 0 = buông xuống, ~-55 = chỉ vào vở. */
   readonly armAngle?: number;
   readonly dressColor?: string;
+  /** Các câu thoại của mẹ trong cảnh (để nhép miệng). */
+  readonly speech?: readonly SpeechLine[];
 };
 
 const MomInner: React.FC<MomProps> = ({
   style,
   armAngle = -40,
   dressColor = "#e8746b",
+  speech,
 }) => {
   const frame = useCurrentFrame();
+  const open = useMouthOpen(speech);
   const { fps } = useVideoConfig();
 
   // Chuyển động nhẹ: thở và chớp mắt định kỳ (trang trí, không cần chỉnh trong Studio).
@@ -87,13 +92,31 @@ const MomInner: React.FC<MomProps> = ({
           {/* Má hồng & miệng cười */}
           <circle cx={138} cy={222} r={14} fill="#f08a8a" opacity={0.45} />
           <circle cx={242} cy={222} r={14} fill="#f08a8a" opacity={0.45} />
-          <path
-            d="M 166 228 Q 190 252 214 228"
-            fill="none"
-            stroke="#8a3b34"
-            strokeWidth={6}
-            strokeLinecap="round"
-          />
+          {open > 0.05 ? (
+            <>
+              <path
+                d={`M 168 230 Q 190 ${226 + open * 2} 212 230 Q 190 ${236 + open * 34} 168 230 Z`}
+                fill="#7a2b2b"
+              />
+              {open > 0.35 ? (
+                <ellipse
+                  cx={190}
+                  cy={230 + open * 12}
+                  rx={10}
+                  ry={2 + open * 4}
+                  fill="#e2737a"
+                />
+              ) : null}
+            </>
+          ) : (
+            <path
+              d="M 166 228 Q 190 252 214 228"
+              fill="none"
+              stroke="#8a3b34"
+              strokeWidth={6}
+              strokeLinecap="round"
+            />
+          )}
         </g>
       </svg>
     </div>

@@ -5,6 +5,7 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
+import { type SpeechLine, useMouthOpen } from "./lipsync";
 
 type Mood = "happy" | "neutral" | "confused" | "wow";
 
@@ -12,9 +13,35 @@ type ChildProps = {
   readonly style?: React.CSSProperties;
   readonly mood?: Mood;
   readonly shirtColor?: string;
+  /** Các câu thoại của con trong cảnh (để nhép miệng). */
+  readonly speech?: readonly SpeechLine[];
 };
 
-const Mouth: React.FC<{ readonly mood: Mood }> = ({ mood }) => {
+const Mouth: React.FC<{ readonly mood: Mood; readonly open: number }> = ({
+  mood,
+  open,
+}) => {
+  if (open > 0.05) {
+    // Miệng đang nói: mở theo âm lượng; khi vui thì miệng rộng hơn.
+    const w = mood === "happy" ? 30 : 22;
+    return (
+      <>
+        <path
+          d={`M ${150 - w} 210 Q 150 ${206 + open * 2} ${150 + w} 210 Q 150 ${216 + open * 40} ${150 - w} 210 Z`}
+          fill="#8a3b34"
+        />
+        {open > 0.35 ? (
+          <ellipse
+            cx={150}
+            cy={210 + open * 14}
+            rx={w * 0.4}
+            ry={2 + open * 5}
+            fill="#e98a8f"
+          />
+        ) : null}
+      </>
+    );
+  }
   if (mood === "happy") {
     return <path d="M 120 205 Q 150 245 180 205 Z" fill="#8a3b34" />;
   }
@@ -47,8 +74,10 @@ const ChildInner: React.FC<ChildProps> = ({
   style,
   mood = "neutral",
   shirtColor = "#3fb8af",
+  speech,
 }) => {
   const frame = useCurrentFrame();
+  const open = useMouthOpen(speech);
   const { fps } = useVideoConfig();
 
   const bounce =
@@ -107,7 +136,7 @@ const ChildInner: React.FC<ChildProps> = ({
             ) : null}
             <circle cx={96} cy={200} r={15} fill="#f39a9a" opacity={0.5} />
             <circle cx={204} cy={200} r={15} fill="#f39a9a" opacity={0.5} />
-            <Mouth mood={mood} />
+            <Mouth mood={mood} open={open} />
           </g>
         </g>
       </svg>

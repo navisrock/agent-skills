@@ -32,8 +32,18 @@ const EndingSceneInner = () => {
             "radial-gradient(circle, rgba(255, 179, 107, 0.45) 0%, rgba(255, 179, 107, 0) 65%)",
         }}
       />
-      <Mom name="Mẹ (ôm con)" armAngle={20} style={{ left: 690, top: 430 }} />
-      <Child name="Con (ôm mẹ)" mood="happy" style={{ left: 930, top: 560 }} />
+      <Mom
+        name="Mẹ (ôm con)"
+        speech={[{ clip: "s8-02", from: 255 }]}
+        armAngle={20}
+        style={{ left: 690, top: 430 }}
+      />
+      <Child
+        name="Con (ôm mẹ)"
+        speech={[{ clip: "s8-01", from: 90 }]}
+        mood="happy"
+        style={{ left: 930, top: 560 }}
+      />
       <Heart name="Trái tim" from={3 * fps} style={{ left: 1300, top: 420 }} />
       <Interactive.Div
         name="Cảm ơn mẹ"

@@ -22,11 +22,23 @@ const SuccessSceneInner = () => {
     <>
       <Mom
         name="Mẹ"
+        speech={[
+          { clip: "s6-02", from: 150 },
+          { clip: "s6-04", from: 405 },
+        ]}
         armAngle={-70}
         dressColor="#e8746b"
         style={{ left: 380, top: 300 }}
       />
-      <Child name="Con (vui)" mood="happy" style={{ left: 1000, top: 340 }} />
+      <Child
+        name="Con (vui)"
+        speech={[
+          { clip: "s6-01", from: 30 },
+          { clip: "s6-03", from: 285 },
+        ]}
+        mood="happy"
+        style={{ left: 1000, top: 340 }}
+      />
       <Desk name="Bàn học" />
       <StarBurst
         name="Sao lấp lánh"

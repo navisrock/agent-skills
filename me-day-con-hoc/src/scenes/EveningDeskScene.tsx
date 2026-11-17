@@ -37,8 +37,25 @@ const EveningDeskSceneInner = () => {
           strokeWidth={12}
         />
       </Interactive.Svg>
-      <Mom name="Mẹ" armAngle={-45} style={{ left: 420, top: 300 }} />
-      <Child name="Con" mood="neutral" style={{ left: 980, top: 340 }} />
+      <Mom
+        name="Mẹ"
+        speech={[
+          { clip: "s2-01", from: 30 },
+          { clip: "s2-03", from: 330 },
+          { clip: "s2-05", from: 615 },
+        ]}
+        armAngle={-45}
+        style={{ left: 420, top: 300 }}
+      />
+      <Child
+        name="Con"
+        speech={[
+          { clip: "s2-02", from: 180 },
+          { clip: "s2-04", from: 480 },
+        ]}
+        mood="neutral"
+        style={{ left: 980, top: 340 }}
+      />
       <Desk name="Bàn học" />
       {/* Quyển sách mở trên bàn */}
       <Interactive.Svg

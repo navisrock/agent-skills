@@ -19,15 +19,25 @@ const StruggleSceneInner = () => {
 
   return (
     <>
-      <Mom name="Mẹ" armAngle={-20} style={{ left: 380, top: 300 }} />
+      <Mom
+        name="Mẹ"
+        speech={[
+          { clip: "s5-02", from: 270 },
+          { clip: "s5-03", from: 390 },
+        ]}
+        armAngle={-20}
+        style={{ left: 380, top: 300 }}
+      />
       <Child
         name="Con (bối rối)"
+        speech={[{ clip: "s5-01", from: 30 }]}
         mood="confused"
         durationInFrames={15 * fps}
         style={{ left: 1000, top: 340 }}
       />
       <Child
         name="Con (hiểu bài)"
+        speech={[{ clip: "s5-04", from: 105 }]}
         mood="neutral"
         from={15 * fps}
         style={{ left: 1000, top: 340 }}
