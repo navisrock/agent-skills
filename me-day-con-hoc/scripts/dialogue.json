@@ -1,0 +1,224 @@
+{
+  "scenes": [
+    {
+      "id": "s1",
+      "lines": [
+        {
+          "who": "con",
+          "at": 4.0,
+          "text": "Mẹ ơi, tối nay mình học gì hả mẹ?"
+        },
+        {
+          "who": "me",
+          "at": 8.0,
+          "text": "Tối nay mẹ con mình cùng học chữ và học đếm nhé!"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "lines": [
+        {
+          "who": "me",
+          "at": 1.0,
+          "text": "Con ăn cơm no chưa? Lại đây ngồi với mẹ nào."
+        },
+        {
+          "who": "con",
+          "at": 6.0,
+          "text": "Dạ, con no rồi ạ! Con lấy sách vở ra đây."
+        },
+        {
+          "who": "me",
+          "at": 11.0,
+          "text": "Con ngồi thẳng lưng, mở vở ra trang mới nhé."
+        },
+        {
+          "who": "con",
+          "at": 16.0,
+          "text": "Mẹ ơi, đèn sáng quá, con nhìn rõ hết rồi!"
+        },
+        {
+          "who": "me",
+          "at": 20.5,
+          "text": "Giỏi lắm. Mình bắt đầu thôi!"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "lines": [
+        {
+          "who": "me",
+          "at": 0.5,
+          "text": "Con cầm bút thế này, nắn nót từng nét nhé."
+        },
+        {
+          "who": "con",
+          "at": 4.0,
+          "text": "A, Ă, Â, B, C, D, Đ!"
+        },
+        {
+          "who": "me",
+          "at": 8.5,
+          "text": "Đúng rồi! Bây giờ con viết một câu thật hay đi."
+        },
+        {
+          "who": "con",
+          "at": 14.5,
+          "text": "Con viết: Mẹ yêu con!"
+        },
+        {
+          "who": "me",
+          "at": 18.5,
+          "text": "Mẹ cũng yêu con nhiều lắm."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "lines": [
+        {
+          "who": "con",
+          "at": 1.1,
+          "text": "Một!",
+          "length_scale": 2.2
+        },
+        {
+          "who": "con",
+          "at": 2.1,
+          "text": "Hai!",
+          "length_scale": 2.2
+        },
+        {
+          "who": "con",
+          "at": 3.1,
+          "text": "Ba!",
+          "length_scale": 2.2
+        },
+        {
+          "who": "con",
+          "at": 4.1,
+          "text": "Bốn!",
+          "length_scale": 2.2
+        },
+        {
+          "who": "con",
+          "at": 5.1,
+          "text": "Năm!",
+          "length_scale": 2.2
+        },
+        {
+          "who": "me",
+          "at": 6.6,
+          "text": "Có tất cả năm quả táo. Giỏi quá!"
+        },
+        {
+          "who": "me",
+          "at": 10.5,
+          "text": "Bây giờ, hai quả táo thêm ba quả táo là mấy quả?"
+        },
+        {
+          "who": "con",
+          "at": 15.5,
+          "text": "Là năm quả táo ạ!"
+        },
+        {
+          "who": "me",
+          "at": 18.5,
+          "text": "Chính xác! Hai cộng ba bằng năm."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "lines": [
+        {
+          "who": "con",
+          "at": 1.0,
+          "text": "Mẹ ơi, bài này khó quá, con không làm được đâu."
+        },
+        {
+          "who": "me",
+          "at": 9.0,
+          "text": "Không sao đâu con, mình thử lại nhé!"
+        },
+        {
+          "who": "me",
+          "at": 13.0,
+          "text": "Mình đọc thật chậm, từng bước một. Con thấy chưa?"
+        },
+        {
+          "who": "con",
+          "at": 18.5,
+          "text": "À, con hiểu rồi mẹ ơi!"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "lines": [
+        {
+          "who": "con",
+          "at": 1.0,
+          "text": "Mẹ ơi, con được mười điểm này!"
+        },
+        {
+          "who": "me",
+          "at": 5.0,
+          "text": "Ôi, con của mẹ giỏi quá!"
+        },
+        {
+          "who": "con",
+          "at": 9.5,
+          "text": "Là nhờ mẹ dạy con đó!"
+        },
+        {
+          "who": "me",
+          "at": 13.5,
+          "text": "Mẹ tự hào về con lắm."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "lines": [
+        {
+          "who": "con",
+          "at": 1.0,
+          "text": "Mẹ không chỉ dạy con chữ,"
+        },
+        {
+          "who": "con",
+          "at": 4.0,
+          "text": "mẹ dạy con sự kiên trì,"
+        },
+        {
+          "who": "con",
+          "at": 7.0,
+          "text": "và cách yêu thương."
+        },
+        {
+          "who": "con",
+          "at": 13.0,
+          "text": "Mỗi buổi tối bên bàn học là một món quà."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "lines": [
+        {
+          "who": "con",
+          "at": 3.0,
+          "text": "Con cảm ơn mẹ! Con yêu mẹ nhiều lắm!"
+        },
+        {
+          "who": "me",
+          "at": 8.5,
+          "text": "Mẹ cũng yêu con. Ngủ ngon nhé, con yêu."
+        }
+      ]
+    }
+  ]
+}

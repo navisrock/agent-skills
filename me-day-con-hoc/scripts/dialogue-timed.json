@@ -1,0 +1,329 @@
+{
+  "scenes": [
+    {
+      "id": "s1",
+      "lines": [
+        {
+          "who": "con",
+          "at": 4.0,
+          "text": "Mẹ ơi, tối nay mình học gì hả mẹ?",
+          "file": "voice/s1-01.wav",
+          "start": 4.0,
+          "duration": 2.42
+        },
+        {
+          "who": "me",
+          "at": 8.0,
+          "text": "Tối nay mẹ con mình cùng học chữ và học đếm nhé!",
+          "file": "voice/s1-02.wav",
+          "start": 8.0,
+          "duration": 2.72
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "lines": [
+        {
+          "who": "me",
+          "at": 1.0,
+          "text": "Con ăn cơm no chưa? Lại đây ngồi với mẹ nào.",
+          "file": "voice/s2-01.wav",
+          "start": 1.0,
+          "duration": 2.56
+        },
+        {
+          "who": "con",
+          "at": 6.0,
+          "text": "Dạ, con no rồi ạ! Con lấy sách vở ra đây.",
+          "file": "voice/s2-02.wav",
+          "start": 6.0,
+          "duration": 2.26
+        },
+        {
+          "who": "me",
+          "at": 11.0,
+          "text": "Con ngồi thẳng lưng, mở vở ra trang mới nhé.",
+          "file": "voice/s2-03.wav",
+          "start": 11.0,
+          "duration": 2.6
+        },
+        {
+          "who": "con",
+          "at": 16.0,
+          "text": "Mẹ ơi, đèn sáng quá, con nhìn rõ hết rồi!",
+          "file": "voice/s2-04.wav",
+          "start": 16.0,
+          "duration": 2.58
+        },
+        {
+          "who": "me",
+          "at": 20.5,
+          "text": "Giỏi lắm. Mình bắt đầu thôi!",
+          "file": "voice/s2-05.wav",
+          "start": 20.5,
+          "duration": 1.53
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "lines": [
+        {
+          "who": "me",
+          "at": 0.5,
+          "text": "Con cầm bút thế này, nắn nót từng nét nhé.",
+          "file": "voice/s3-01.wav",
+          "start": 0.5,
+          "duration": 2.53
+        },
+        {
+          "who": "con",
+          "at": 4.0,
+          "text": "A, Ă, Â, B, C, D, Đ!",
+          "file": "voice/s3-02.wav",
+          "start": 4.0,
+          "duration": 1.99
+        },
+        {
+          "who": "me",
+          "at": 8.5,
+          "text": "Đúng rồi! Bây giờ con viết một câu thật hay đi.",
+          "file": "voice/s3-03.wav",
+          "start": 8.5,
+          "duration": 2.6
+        },
+        {
+          "who": "con",
+          "at": 14.5,
+          "text": "Con viết: Mẹ yêu con!",
+          "file": "voice/s3-04.wav",
+          "start": 14.5,
+          "duration": 1.43
+        },
+        {
+          "who": "me",
+          "at": 18.5,
+          "text": "Mẹ cũng yêu con nhiều lắm.",
+          "file": "voice/s3-05.wav",
+          "start": 18.5,
+          "duration": 1.33
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "lines": [
+        {
+          "who": "con",
+          "at": 1.1,
+          "text": "Một!",
+          "length_scale": 2.2,
+          "file": "voice/s4-01.wav",
+          "start": 1.1,
+          "duration": 0.2
+        },
+        {
+          "who": "con",
+          "at": 2.1,
+          "text": "Hai!",
+          "length_scale": 2.2,
+          "file": "voice/s4-02.wav",
+          "start": 2.1,
+          "duration": 0.21
+        },
+        {
+          "who": "con",
+          "at": 3.1,
+          "text": "Ba!",
+          "length_scale": 2.2,
+          "file": "voice/s4-03.wav",
+          "start": 3.1,
+          "duration": 0.17
+        },
+        {
+          "who": "con",
+          "at": 4.1,
+          "text": "Bốn!",
+          "length_scale": 2.2,
+          "file": "voice/s4-04.wav",
+          "start": 4.1,
+          "duration": 0.27
+        },
+        {
+          "who": "con",
+          "at": 5.1,
+          "text": "Năm!",
+          "length_scale": 2.2,
+          "file": "voice/s4-05.wav",
+          "start": 5.1,
+          "duration": 0.17
+        },
+        {
+          "who": "me",
+          "at": 6.6,
+          "text": "Có tất cả năm quả táo. Giỏi quá!",
+          "file": "voice/s4-06.wav",
+          "start": 6.6,
+          "duration": 2.26
+        },
+        {
+          "who": "me",
+          "at": 10.5,
+          "text": "Bây giờ, hai quả táo thêm ba quả táo là mấy quả?",
+          "file": "voice/s4-07.wav",
+          "start": 10.5,
+          "duration": 3.13
+        },
+        {
+          "who": "con",
+          "at": 15.5,
+          "text": "Là năm quả táo ạ!",
+          "file": "voice/s4-08.wav",
+          "start": 15.5,
+          "duration": 1.14
+        },
+        {
+          "who": "me",
+          "at": 18.5,
+          "text": "Chính xác! Hai cộng ba bằng năm.",
+          "file": "voice/s4-09.wav",
+          "start": 18.5,
+          "duration": 1.62
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "lines": [
+        {
+          "who": "con",
+          "at": 1.0,
+          "text": "Mẹ ơi, bài này khó quá, con không làm được đâu.",
+          "file": "voice/s5-01.wav",
+          "start": 1.0,
+          "duration": 3.41
+        },
+        {
+          "who": "me",
+          "at": 9.0,
+          "text": "Không sao đâu con, mình thử lại nhé!",
+          "file": "voice/s5-02.wav",
+          "start": 9.0,
+          "duration": 2.26
+        },
+        {
+          "who": "me",
+          "at": 13.0,
+          "text": "Mình đọc thật chậm, từng bước một. Con thấy chưa?",
+          "file": "voice/s5-03.wav",
+          "start": 13.0,
+          "duration": 2.4
+        },
+        {
+          "who": "con",
+          "at": 18.5,
+          "text": "À, con hiểu rồi mẹ ơi!",
+          "file": "voice/s5-04.wav",
+          "start": 18.5,
+          "duration": 1.55
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "lines": [
+        {
+          "who": "con",
+          "at": 1.0,
+          "text": "Mẹ ơi, con được mười điểm này!",
+          "file": "voice/s6-01.wav",
+          "start": 1.0,
+          "duration": 2.2
+        },
+        {
+          "who": "me",
+          "at": 5.0,
+          "text": "Ôi, con của mẹ giỏi quá!",
+          "file": "voice/s6-02.wav",
+          "start": 5.0,
+          "duration": 1.61
+        },
+        {
+          "who": "con",
+          "at": 9.5,
+          "text": "Là nhờ mẹ dạy con đó!",
+          "file": "voice/s6-03.wav",
+          "start": 9.5,
+          "duration": 1.46
+        },
+        {
+          "who": "me",
+          "at": 13.5,
+          "text": "Mẹ tự hào về con lắm.",
+          "file": "voice/s6-04.wav",
+          "start": 13.5,
+          "duration": 1.5
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "lines": [
+        {
+          "who": "con",
+          "at": 1.0,
+          "text": "Mẹ không chỉ dạy con chữ,",
+          "file": "voice/s7-01.wav",
+          "start": 1.0,
+          "duration": 1.35
+        },
+        {
+          "who": "con",
+          "at": 4.0,
+          "text": "mẹ dạy con sự kiên trì,",
+          "file": "voice/s7-02.wav",
+          "start": 4.0,
+          "duration": 1.28
+        },
+        {
+          "who": "con",
+          "at": 7.0,
+          "text": "và cách yêu thương.",
+          "file": "voice/s7-03.wav",
+          "start": 7.0,
+          "duration": 1.65
+        },
+        {
+          "who": "con",
+          "at": 13.0,
+          "text": "Mỗi buổi tối bên bàn học là một món quà.",
+          "file": "voice/s7-04.wav",
+          "start": 13.0,
+          "duration": 3.15
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "lines": [
+        {
+          "who": "con",
+          "at": 3.0,
+          "text": "Con cảm ơn mẹ! Con yêu mẹ nhiều lắm!",
+          "file": "voice/s8-01.wav",
+          "start": 3.0,
+          "duration": 2.03
+        },
+        {
+          "who": "me",
+          "at": 8.5,
+          "text": "Mẹ cũng yêu con. Ngủ ngon nhé, con yêu.",
+          "file": "voice/s8-02.wav",
+          "start": 8.5,
+          "duration": 2.29
+        }
+      ]
+    }
+  ]
+}
